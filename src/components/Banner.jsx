@@ -3,8 +3,22 @@ import logo from '/assets/codibara-sample-logo.png';
 
 import { ChevronDoubleDown } from 'react-bootstrap-icons';
 
+import { useEffect } from 'react';
+import { Link, useLocation } from "react-router-dom";
+
 
 export default function Banner(){
+    const location = useLocation();
+    useEffect(() => {
+        // When location changes, check for hash and scroll to the corresponding element
+        if (location.hash) {
+            const element = document.getElementById(location.hash.substring(1));
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }, [location]);
+
     return(
         <>
          <div className='relative h-svh flex flex-col justify-center items-center'>
@@ -12,10 +26,12 @@ export default function Banner(){
                 src={logo}
             />
             <div className='absolute bottom-6 flex flex-col items-center'>
-                <p className='font-chivo text-subcolor inline-block mb-4.5 border-b'>Explore</p>
-                <a href='#about'>
+                <Link to='#about'>
+                    <p className='font-chivo text-subcolor inline-block mb-4.5 border-b md:text-xl'>Explore</p>
+                </Link>
+                <Link to='#about'>
                     <ChevronDoubleDown color='rgba(206,91,22,1)' size={24}/>
-                </a>
+                </Link>
             </div>
          </div>
         

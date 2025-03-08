@@ -24,7 +24,7 @@ export default function TeamDesktop(){
                         <p className='font-chivo text-primary text-[1.8vw] lg:text-2xl tracking-wider'>Tony</p>
                         <p className='font-noto text-secondary font-light text-[1.6vw] lg:text-[24px]'>Back-end</p>
                     </div>
-                    <div className='w-[18%] flex flex-col items-center'>
+                    <div className='w-[20%] flex flex-col items-center'>
                         <p className='font-chivo text-primary text-[1.8vw] lg:text-2xl tracking-wider'>Soy</p>
                         <p className='font-noto text-secondary font-light text-center text-[1.6vw] lg:text-[24px]'>Project Manager<br></br>
                         & Designer</p>
