@@ -24,6 +24,7 @@ export default function Banner(){
          <div className='relative h-svh flex flex-col justify-center items-center'>
             <img
                 src={logo}
+                className='w-2/12 max-w-[300px] min-w-[200px]'
             />
             <div className='absolute bottom-6 flex flex-col items-center'>
                 <Link to='#about'>

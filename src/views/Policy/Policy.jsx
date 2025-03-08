@@ -8,7 +8,7 @@ export default function Policy() {
     return(
         <>
             <Header />
-            <div className='max-w-[1440px] px-5 mx-auto'>
+            <div className='max-w-[1440px] min-h-[calc(100svh-380px)] px-24 mx-auto'>
                 <div className='font-noto text-body mb-11 mt-12'>
                     Your privacy is our top priority. 
                 We understand the importance of protecting your personal information and ensuring the safety of your data. This Privacy Policy outlines how CODIBARA collects, uses, and safeguards your information in compliance with Apple's App Store and Google Play Store guidelines for privacy details.</div>

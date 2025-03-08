@@ -4,7 +4,7 @@ import membersWeb from '/assets/Members-Web.png'
 
 export default function TeamDesktop(){
     return(
-        <div className='flex flex-col items-center bg-subcolor-light pt-30 pb-20'>
+        <div className='flex flex-col items-center bg-subcolor-light py-32'>
             <p className='font-noto text-secondary text-[1.8vw] lg:text-2xl mb-9'>Seamless / Social / Like a Capybara.</p>
             <div className='w-10/12 max-w-[1120px]'>
                 <img 

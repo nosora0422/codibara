@@ -20,7 +20,7 @@ export default function Header() {
 
 
     return(
-        <div className='w-screen sticky top-0 flex flex-col items-center py-3.5 px-6 md:flex-row md:justify-between z-50'>
+        <div className='w-full max-w-[1440px] mx-auto sticky top-0 flex flex-col items-center py-3.5 px-6 md:flex-row md:justify-between z-50'>
             <Link to='/'>
                 <img className='w-8' src={logo} />
             </Link>
