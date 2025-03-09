@@ -61,7 +61,7 @@ export default function TeamMobile(){
                     <p className='text-primary'>·</p>
                     <p className='text-secondary'>·</p>
                     <p className='text-primary'>·</p>
-                    <img src={'/assets/Members-Web.png'}/>
+                    <img src={'./assets/Members-Web.png'}/>
                 </div>
             </div>
         </div>
