@@ -5,6 +5,7 @@ import soyMobile from '/assets/Soy-mobile.png';
 import soraMobile from '/assets/Sora-mobile.png';
 import tonyMobile from '/assets/Tony-mobile.png';
 
+
 export default function TeamMobile(){
     return(
         <div className='relative flex flex-col items-center'>
@@ -61,7 +62,7 @@ export default function TeamMobile(){
                     <p className='text-primary'>·</p>
                     <p className='text-secondary'>·</p>
                     <p className='text-primary'>·</p>
-                    <img src={'./assets/Members-Web.png'}/>
+                    <img src={'/assets/members-web.png'}/>
                 </div>
             </div>
         </div>

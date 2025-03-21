@@ -8,24 +8,6 @@ import logo from '/assets/Codibara-Logo.png';
 
 export default function Header() {
     const location = useLocation();
-    const [lastScrollY, setLastScrollY] = useState(0);
-    const [hidden, setHidden] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > lastScrollY) {
-                setHidden(true); // Hide on scroll down
-            } else {
-                setHidden(false); // Show on scroll up
-            }
-            setLastScrollY(window.scrollY);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [lastScrollY]);
 
     useEffect(() => {
         // When location changes, check for hash and scroll to the corresponding element
@@ -39,7 +21,7 @@ export default function Header() {
 
 
     return(
-        <div className={`w-full max-w-[1440px] mx-auto sticky top-0 flex flex-col items-center py-3.5 px-6 md:flex-row md:justify-between z-50 bg-white transition-transform duration-500 ${hidden ? "-translate-y-full" : "translate-y-0"}`}>
+        <div className="w-full max-w-[1440px] mx-auto sticky top-0 flex flex-col items-center py-3.5 px-6 md:flex-row md:justify-between z-50">
             <Link to='/'>
                 <img className='w-8' src={logo} />
             </Link>
