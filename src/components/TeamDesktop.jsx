@@ -1,6 +1,6 @@
 import '../index.css'
 
-import membersWeb from '/assets/members-web.png'
+import membersWeb from '/assets/members-web2.png'
 
 export default function TeamDesktop(){
     return(

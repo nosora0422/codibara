@@ -1,7 +1,7 @@
 import '../index.css'
 
 import mobileAboutTeam from '/assets/mobile-about-team.png'
-import membersWeb from '/assets/members-web.png'
+import membersWeb from '/assets/members-web2.png'
 
 export default function About(){
     return(
