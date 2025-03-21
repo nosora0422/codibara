@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "title": "THUL",
+    "title": "thul.club",
     "description": "Make a connection Without Borders – Connect, Learn, Grow.",
     "image": "./assets/thumbnail-thul.png",
     "award": true
   },
   {
     "id": 2,
-    "title": "CACY",
+    "title": "CAVY",
     "description": "Capture, Archive, Vault, Your Moments.",
     "image": "./assets/thumbnail-cavy.png",
     "award": true
   },
   {
     "id": 3,
-    "title": "BORI",
+    "title": "bori",
     "description": "Bring Online Retails In your palm.",
     "image": "./assets/thumbnail-bori.png",
     "award": false,
@@ -31,13 +31,6 @@
   {
     "id": 5,
     "title": "Random Game2",
-    "description": "APT, APT, APT Do you want to know more about K-Drinking Game?",
-    "image": "./assets/thumbnail-RG.png",
-    "award": false
-  },
-  {
-    "id": 6,
-    "title": "Random Game3",
     "description": "APT, APT, APT Do you want to know more about K-Drinking Game?",
     "image": "./assets/thumbnail-RG.png",
     "award": false

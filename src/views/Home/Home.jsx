@@ -11,7 +11,7 @@ export default function App() {
     return (
       <>
         <Banner/>
-        <div className='relative'>
+        <div className='relative overflow-clip'>
           <Header/>
           <About />
           <Works />

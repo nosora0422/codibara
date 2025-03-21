@@ -13,8 +13,8 @@ import { ChevronDoubleRight, ChevronDoubleLeft } from 'react-bootstrap-icons';
 export default function CardCarousel() {
     return (
         <div className='relative w-full'>
-            <button className="swiper-button-prev-custom absolute hidden md:flex flex-row justify-center items-center w-18 h-18 top-1/2 rounded-full left-4 bg-secondary -translate-y-1/2 z-10"><ChevronDoubleLeft color={'#ffffff'} size={32}/></button>
-            <button className="swiper-button-next-custom absolute hidden md:flex flex-row justify-center items-center w-18 h-18 top-1/2 rounded-full right-4 bg-secondary -translate-y-1/2 z-10"><ChevronDoubleRight color={'#ffffff'} size={32}/></button>
+            <button className="swiper-button-prev-custom absolute hidden md:flex flex-row justify-center items-center w-14 h-14 top-1/2 rounded-full left-4 bg-secondary -translate-y-1/2 z-10 hover:cursor-pointer"><ChevronDoubleLeft color={'#ffffff'} size={32}/></button>
+            <button className="swiper-button-next-custom absolute hidden md:flex flex-row justify-center items-center w-14 h-14 top-1/2 rounded-full right-4 bg-secondary -translate-y-1/2 z-10 hover:cursor-pointer"><ChevronDoubleRight color={'#ffffff'} size={32}/></button>
             
             <Swiper
                 spaceBetween={8}
@@ -27,6 +27,9 @@ export default function CardCarousel() {
                 }}
                 autoplay={{ delay: 3000, disableOnInteraction: false }}
                 breakpoints={{
+                    430: {
+                        slidesPerView: 2,
+                    },
                     768: {
                         slidesPerView: 2,
                     },

@@ -32,6 +32,11 @@ a:hover{
     cursor: pointer;
 }
 
+.link-hover:hover .chevronRight,
+.link-hover:hover p {
+  color: var(--color-primary);
+}
+
 
 @layer components {
     .nav-item {

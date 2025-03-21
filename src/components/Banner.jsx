@@ -1,5 +1,5 @@
 import '../index.css'
-import logo from '/assets/codibara-sample-logo.png';
+import logo from '/assets/Codibara-Logo.png';
 
 import { ChevronDoubleDown } from 'react-bootstrap-icons';
 
@@ -30,7 +30,7 @@ export default function Banner(){
                 <Link to='#about'>
                     <p className='font-chivo text-subcolor inline-block mb-4.5 border-b md:text-xl'>Explore</p>
                 </Link>
-                <Link to='#about'>
+                <Link to='#about' className='animate-bounce'>
                     <ChevronDoubleDown color='rgba(206,91,22,1)' size={24}/>
                 </Link>
             </div>
